@@ -4,6 +4,7 @@ metadata:
   name: grade-submission-api
   namespace: grade-demo
 spec:
+  replicas: 8
   type: NodePort
   selector:
     app: grade-submission
